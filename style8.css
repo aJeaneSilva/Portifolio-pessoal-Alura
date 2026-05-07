@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho3 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: #dfafff;
+    color: #000000;
+    padding: 12px;
+    box-shadow: 0px 0px 20px #c9c9c9;
+}
+.link__cabecalho3 {
+    text-decoration: none;
+}
+.rodape3 {
+    background-color: #dfafff;
+    padding: 12px;
+    box-shadow: 0px 0px 20px #c9c9c9;
+}
+.copy3 {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}

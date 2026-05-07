@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: #dfafff;
+    color: #000000;
+    padding: 12px;
+    box-shadow: 0px 0px 20px #c9c9c9;
+}
+.link__cabecalho {
+    text-decoration: none;
+}
+
+
+.titulo {
+    color: #dfafff;
+}
+
+.paragrafo {
+    color : #dfafff;
+}
+.layout {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5%;
+}
+
+.materia {
+    width: 650px;
+    margin: 5% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+}
+.fonte__texto {
+    font-family:"DM Serif Display", serif;
+    font-size: 40px;
+}
+.fonte__paragrafo {
+    font-family:"PT Serif", serif
+}
+
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.botoes__estilo {
+    background-color: #dfafff;
+    color: #000000;
+    width: 150px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family:"PT Serif", serif;
+}
+
+.botoes__estilo:hover {
+    transform: scale(1.1);
+    background-color: #9f72bd;
+}
+.rodape {
+    background-color: #dfafff;
+    padding: 12px;
+    box-shadow: 0px 0px 20px #c9c9c9;
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
+
+@media (max-width: 768px) {
+    .materia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        margin: 5% 5%;
+    }
+    .fonte__texto {
+        font-size: 35px;
+        order: -1;
+    }
+    .img {
+        width: 70%;
+    }
+    .nav-links {
+        display: none;
+    }
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
