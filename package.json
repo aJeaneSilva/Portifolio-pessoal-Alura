@@ -1,0 +1,23 @@
+{
+  "name": "portifolio-pessoal-alura",
+  "version": "1.0.0",
+  "description": "Portfólio pessoal de Jeane Silva - Alura",
+  "main": "index6.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aJeaneSilva/Portifolio-pessoal-Alura.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aJeaneSilva/Portifolio-pessoal-Alura/issues"
+  },
+  "homepage": "https://github.com/aJeaneSilva/Portifolio-pessoal-Alura#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
